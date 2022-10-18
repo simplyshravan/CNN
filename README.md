@@ -28,20 +28,20 @@ A solution which can evaluate images and alert the dermatologists about the pres
 
 ## Conclusions
 With the use of augmentor to balance the data among classes, I am able to achieve 81.96% validation accuracy with below structure of CNN.
-Sequential([
-    - rescaling
-    - conv2d
-    - MaxPool
-    - conv2d
-    - MaxPool
-    - conv2d
-    - MaxPool
-    - Dropout
-    - Flatten
-    - Dense
-    - Dense
-    - Dense
-])
+#### Sequential([
+####    - rescaling
+####    - conv2d
+####    - MaxPool
+####    - conv2d
+####    - MaxPool
+####    - conv2d
+####    - MaxPool
+####    - Dropout
+####    - Flatten
+####    - Dense
+####    - Dense
+####    - Dense
+#### ])
 
 
 
